@@ -1,6 +1,6 @@
 import streamlit as st
-import pypickle
-model=pypickle.load("placement_model.pkl")
+import pickle
+model=pickle.load("placement_model.pkl")
 st.title("Placement-Prediction App")
 cgpa=st.slider("CGPA",1.0,10.0,7.0)
 apt=st.slider("Aptitude Score",1,100,60)
