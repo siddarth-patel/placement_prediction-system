@@ -77,7 +77,7 @@ def login_page():
         if login:
 
             # Temporary login
-            if username == "admin" and password == "1234":
+            if username == "admin" and password == "9410":
 
                 st.session_state.logged_in = True
                 st.session_state.username = username
